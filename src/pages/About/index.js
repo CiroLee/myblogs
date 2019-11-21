@@ -6,7 +6,7 @@ export default props => {
   const [content, setContent] = useState(null);
   useEffect(() => {
     http({
-      url: "/articles/我的简历.md",
+      url: "articles/我的简历.md",
       method: "get"
     }).then(resp => {
       setContent(resp)
