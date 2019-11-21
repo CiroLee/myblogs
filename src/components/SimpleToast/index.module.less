@@ -1,0 +1,27 @@
+.toast-wrapper{
+    padding:8px 14px;
+    background:#fff;
+    position: fixed;
+    font-size:14px;
+    color:#333;
+    left:50%;
+    top:60px;
+    transform: translateX(-50%);
+    display:flex;
+    align-items: center;
+    box-shadow: 0px 0px 9px -1px #d8d6d6;
+    border-radius: 2px;
+    animation: toastIn .5s;
+    animation-fill-mode: both;
+    span{
+        padding-left:10px;
+    }
+}
+@keyframes toastIn {
+    from {
+        transform:translate(-50%,-100px)
+    }
+    to {
+        transform: translate(-50%,0);
+    }
+}

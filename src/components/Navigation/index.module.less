@@ -1,0 +1,39 @@
+.navigation{
+    overflow: hidden;
+    padding:10px 20px;
+    display: inline-block;
+    background:#000;
+    a {
+        width:20px;
+        padding:8px 0;
+        display: inline-block;
+        font-size: 14px;
+        text-align: center;
+        color:#fff;
+        position: relative;
+        &:hover{
+            color:#ff0000;
+            font-weight: bold;
+        }
+    }
+    .match::before{
+        position: absolute;
+        content:''; 
+        top:2px;
+        right:-5px;
+        width:8px;
+        height:8px;
+        border-radius: 50%;
+        border:3px solid rgba(255,0,0,1);
+    }
+    .match::after{
+        content: '';
+        width: 10px;
+        height: 3px;
+        position: absolute;
+        top: 13px;
+        right: -6px;
+        background: #ff0000;
+        border-radius: 3px;
+    }
+}
