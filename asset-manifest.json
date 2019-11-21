@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CiroLee/myblogs/static/css/main.f360e64d.chunk.css",
-    "main.js": "/CiroLee/myblogs/static/js/main.1da79d57.chunk.js",
-    "runtime-main.js": "/CiroLee/myblogs/static/js/runtime-main.9cff253b.js",
-    "static/js/2.5817040d.chunk.js": "/CiroLee/myblogs/static/js/2.5817040d.chunk.js",
-    "index.html": "/CiroLee/myblogs/index.html",
-    "precache-manifest.20a2bb3f16d15edd977cf8ff250e724e.js": "/CiroLee/myblogs/precache-manifest.20a2bb3f16d15edd977cf8ff250e724e.js",
-    "service-worker.js": "/CiroLee/myblogs/service-worker.js"
+    "main.css": "/myblogs/static/css/main.f360e64d.chunk.css",
+    "main.js": "/myblogs/static/js/main.1da79d57.chunk.js",
+    "runtime-main.js": "/myblogs/static/js/runtime-main.ba87ae54.js",
+    "static/js/2.5817040d.chunk.js": "/myblogs/static/js/2.5817040d.chunk.js",
+    "index.html": "/myblogs/index.html",
+    "precache-manifest.cedca20dc9725a8bb7a7cce660f9b54c.js": "/myblogs/precache-manifest.cedca20dc9725a8bb7a7cce660f9b54c.js",
+    "service-worker.js": "/myblogs/service-worker.js"
   },
   "entrypoints": [
-    "static/js/runtime-main.9cff253b.js",
+    "static/js/runtime-main.ba87ae54.js",
     "static/js/2.5817040d.chunk.js",
     "static/css/main.f360e64d.chunk.css",
     "static/js/main.1da79d57.chunk.js"
