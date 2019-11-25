@@ -27,8 +27,11 @@ const BookArticle = props => {
     //渲染文章
     const renderArticle = ()=>{
         let url = props.location.search.split('=')[1];
-        url = decodeURIComponent(url);
-        if(url !== 'undefined'){
+        if(url === undefined && getBookList(props.match.params.id)[0]){
+          url = getBookList(props.match.params.id)[0];
+          url = decodeURIComponent(url.url);
+        }
+        if(url){
             getArticle(url).then(resp=>{
                 setContent(resp)
             })
