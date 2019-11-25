@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import * as models from './models';
 import Layout from './layout';
 import Article from './pages/Article';
+import BookArticle from './pages/BookArticle';
 import Icon from './components/Icon';
 import routerConfigs from '@/configs/router.config.js';
 import utils from '@/utils/utils';
@@ -46,6 +47,7 @@ const BasicRoute = () => {
       <Router>
         <Switch>
           <Route path="/article/:url" exact={true} component={Article} />
+          <Route path='/books/:id' exact={true} component={BookArticle} />
           <Layout>{getRoutes(routerConfigs)}</Layout>
         </Switch>
         {

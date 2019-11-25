@@ -8,7 +8,11 @@
             "url":"let和const.md",
             "starts":5,
             "publish_date":"2019-10-10",
-            "categories":["ES6"]
+            "categories":["ES6"],
+            "books":{
+                "id":"book_es6",
+                "index":1
+            }
         },
         {
             "id":"wz_002",
@@ -17,7 +21,11 @@
             "url":"变量的解构赋值.md",
             "starts":5,
             "publish_date":"2019-10-11",
-            "categories":["ES6","前端"]
+            "categories":["ES6","前端"],
+            "books":{
+                "id":"book_es6",
+                "index":2
+            }
         },
         {
             "id":"wz_003",
@@ -25,7 +33,23 @@
             "abstract":"ES6个人学习笔记之Promise",
             "publish_date":"2019-10-12",
             "url":"Promise对象.md",
-            "categories":["ES6","学习"]
+            "categories":["ES6","学习"],
+            "books":{
+                "id":"book_es6",
+                "index":3
+            }
+        },
+        {
+            "id":"xs_001",
+            "title":"Javascript高级程序设计——基本概念",
+            "abstract":"《Javascript高级程序设计》学习摘要",
+            "publish_date":"2019-11-22",
+            "url":"基本概念.md",
+            "categories":["javascript"],
+            "books":{
+                "id":"book_js_design",
+                "index":1
+            }
         }
     ]
 }

@@ -1,5 +1,6 @@
 import Home from '../pages/Home';
 import Categories from '../pages/Categories';
+import Books from '../pages/Books';
 import About from '../pages/About';
 export default [
     {
@@ -17,6 +18,14 @@ export default [
         menu:true,
         exact:true,
         component:Categories
+    },
+    {
+        path:'/books',
+        name:'小书',
+        icon:'book',
+        exact:true,
+        menu:true,
+        component:Books
     },
     {
         path:'/about',

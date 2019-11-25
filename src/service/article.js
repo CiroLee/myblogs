@@ -12,3 +12,9 @@ export const getArticle = url => http({
     url:`articles/${url}`,
     method:'get'
 });
+
+//获取小书列表
+export const getBookList = data => http({
+    url:'api/books_list.json',
+    method:'get'
+});

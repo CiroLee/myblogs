@@ -1,0 +1,46 @@
+.bookarticle-wrapper{
+    display:flex;
+    position: relative;
+    overflow: hidden;
+}
+.catalog{
+   
+}
+.pc-catalog-wrapper{
+    position: relative;
+    background:#fff;
+    border-right:1px solid #ccc;
+    width: 240px;
+    height:100vh;
+    overflow-y:auto;
+}
+.mobile-catalog{
+    padding-right:20px;
+}
+.content{
+    flex:1;
+    height: 100vh;
+    padding:10px;
+    overflow-y: auto;
+    margin-bottom:60px;
+}
+.goback{
+    display: flex;
+    justify-content: space-between;
+    margin:6px 0;
+    margin-left:8%;
+}
+.article{
+    width:74%;
+    margin-left:8%;
+}
+
+@media all and (max-width:820px) {
+    .article{
+        width:100%;
+        margin-left:0;
+    }
+    .goback{
+        margin-left:0;
+    }
+}
