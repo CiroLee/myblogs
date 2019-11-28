@@ -24,7 +24,9 @@ const Home = props => {
     const renderArticleList = (current=1,size=5) => {
         let start = (current - 1) * size,
             end = current > 1 ? current + size : current + size - 1;
-        let list = props.articlelist.slice(start,end);
+        let list = props.articlelist.slice(start,end).sort((a,b)=>new Date(b.publish_date) - new Date(a.publish_date));
+
+        console.log(list)
 
         return list;
     }

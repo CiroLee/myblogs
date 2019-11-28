@@ -50,6 +50,18 @@
                 "id":"book_js_design",
                 "index":1
             }
+        },
+        {
+        	"id":"xs_002",
+        	"title":"Javascript高级程序设计——引用类型",
+        	"abstract":"《javascript高级程序设计》引用类型脑图",
+        	"publish_date":"2019-11-28",
+        	"url":"引用类型.md",
+        	"categories":["javascript"],
+        	"books":{
+        		"id":"book_js_design",
+        		"index":2
+        	}
         }
     ]
 }
