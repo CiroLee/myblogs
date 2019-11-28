@@ -4,11 +4,13 @@
     overflow: hidden;
 }
 .pc-catalog-wrapper{
-    position: relative;
+    position: fixed;
+    top:0;
+    left:0;
     background:#fff;
     border-right:1px solid #ccc;
     width: 240px;
-    height:100vh;
+    height:calc(100vh - 50px);
     overflow-y:auto;
 }
 .mobile-catalog{
@@ -16,10 +18,10 @@
 }
 .content{
     flex:1;
-    height: 100vh;
     padding:10px;
     overflow-y: auto;
     margin-bottom:60px;
+    margin-left:240px;
 }
 .goback{
     display: flex;
@@ -38,6 +40,9 @@
         margin-left:0;
     }
     .goback{
+        margin-left:0;
+    }
+    .content{
         margin-left:0;
     }
 }
