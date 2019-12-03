@@ -62,6 +62,17 @@
         		"id":"book_js_design",
         		"index":2
         	}
+        },
+        {
+            "id":"xs_003",
+            "title":"Javascript高级程序设计——面向对象",
+            "abstract":"JavaScript中的继承方法",
+            "publish_date":"2019-12-3",
+            "url":"面向对象.md",
+            "books":{
+                "id":"book_js_design",
+                "index":3
+            }
         }
     ]
 }
