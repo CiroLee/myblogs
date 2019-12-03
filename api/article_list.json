@@ -69,6 +69,7 @@
             "abstract":"JavaScript中的继承方法",
             "publish_date":"2019-12-3",
             "url":"面向对象.md",
+            "categories":["javascript"],
             "books":{
                 "id":"book_js_design",
                 "index":3
